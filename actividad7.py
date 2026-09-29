@@ -22,4 +22,4 @@ if st.button("Evaluar"):
           resultado=("lote aceptable")
     # Completa aquí la lógica
 
-st.write(f"Resultado: {resultado}")
+        st.write(f"Resultado: {resultado}")
