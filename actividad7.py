@@ -20,6 +20,7 @@ if st.button("Evaluar"):
           resultado=("revisar temperatura")
       else:
           resultado=("lote aceptable")
+  st.write(f"Resultado: {resultado}")
 else:
     st.write("aun no se evalua")
-st.write(f"Resultado: {resultado}")
+
