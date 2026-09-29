@@ -2,7 +2,9 @@
 import streamlit as st
 st.sidebar.title("Actividad7")
 st.sidebar.write("Audric Gómez"
+                 
                 "3°L"
+                 
                 "Facultad de ciencias quimicas")
 st.title("Evaluación de un lote")
 resultado=0
