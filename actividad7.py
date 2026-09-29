@@ -5,7 +5,7 @@ st.title("Evaluación de un lote")
 
 pH = st.number_input(
     "pH",
-    value=7.5
+    value=6.5
 )
 temperatura = st.number_input(
     "Temperatura (°C)",
@@ -15,6 +15,12 @@ temperatura = st.number_input(
 if st.button("Evaluar"):
   if 7<pH or 6>pH:
     resultado=("Revisar pH")
+  else:
+      if 20>temperatura or temperatura>25:
+          resultado=("revisar temperatura")
+      else:
+          resultado=("lote aceptable)
+      
 
     # Completa aquí la lógica
 
