@@ -19,7 +19,7 @@ if st.button("Evaluar"):
       if 20>temperatura or temperatura>25:
           resultado=("revisar temperatura")
       else:
-          resultado=("lote aceptable)
+          resultado=("lote aceptable")
       
 
     # Completa aquí la lógica
