@@ -21,5 +21,5 @@ if st.button("Evaluar"):
       else:
           resultado=("lote aceptable")
 else:
-    # Completa aquí la lógica
+    st.write("aun no se evalua")
 st.write(f"Resultado: {resultado}")
