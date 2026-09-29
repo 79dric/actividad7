@@ -14,7 +14,7 @@ temperatura = st.number_input(
 
 if st.button("Evaluar"):
   if 7<pH or 6>pH:
-    st.write("Revisar pH")
+    resultado=("Revisar pH")
 
     # Completa aquí la lógica
 
