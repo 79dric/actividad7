@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.title("Evaluación de un lote")
-
+resultado=0
 pH = st.number_input(
     "pH",
     value=6.5
